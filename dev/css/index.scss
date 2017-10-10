@@ -1,0 +1,59 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+body{
+    background: #e6eaf2;
+}
+
+#wrapper{
+    margin: 80px auto;
+    
+    
+}
+
+.chart{
+    position: relative;
+    left: 80px;
+}
+
+
+
+
+.axis {
+    font: 12px  Tahoma;
+}
+
+.axis path, .axis line{
+    fill: none;
+    stroke: #dadada;
+    shape-rendering: crispEdges;
+}
+.tooltip{
+
+    background: #d7e3f7;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.amount{
+    font:  bold 1.2em Arial;
+}
+
+.info{
+    font: 12px Tahoma;
+    color:#4c8ef7;
+}
+
+.title{
+    position:relative;
+    left: 20px;
+    font: 2.5em Tahoma;
+    color:#4c8ef7;
+}
